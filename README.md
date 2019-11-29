@@ -64,4 +64,4 @@ sh ~/ubuntu_test-master/ubuntu_test/5_ubuntu_activate_env_copy_benchmark.sh
 
 sh ~/ubuntu_test-master/ubuntu_test/6_run_benchmark.sh
 
-![image](https://github.com/ehejia/ubuntu_test/raw/master/images/5.png)
+![image](https://github.com/ehejia/ubuntu_test/raw/master/images/run_benchmark.png)

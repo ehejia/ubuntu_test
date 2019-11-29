@@ -1,6 +1,6 @@
 # Ubuntu18.4 测试环境搭建
 
-#一、ubuntu系统下载安装(略)
+# 一、ubuntu系统下载安装(略)
 
 1．Ubuntu安装
   1）www.ubuntu.com下载ISO安装文件
@@ -9,7 +9,7 @@
   
 ![image](https://github.com/ehejia/ubuntu_test/raw/master/images/isotousb.png)
 
-#二、系统环境搭建
+# 二、系统环境搭建
 
 按照序号执行1-3需要打开终端脚本运行需要添加sudo
 

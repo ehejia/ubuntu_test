@@ -40,25 +40,28 @@ wget https://github.com/ehejia/ubuntu_test/archive/master.zip
 
 unzip master.zip
 
-### 2、初始化系统
+### 2、初始化系统安装必要的软件（openssh-server，git）
 
-sudo sh ~/ubuntu_test-master/ubuntu_test/1-ubuntu初始化.sh
+sudo sh ~/ubuntu_test-master/ubuntu_test/1_ubuntu_init.sh
 
-### 3、安装显卡驱动并重新启动
+### 3、解压并下载安装脚本
 
-sudo sh ~/ubuntu_test-master/ubuntu_test/2-ubuntu安装显卡驱动需重启.sh 
+sh ~/ubuntu_test-master/ubuntu_test/2_ubuntu_copy_scirpt.sh
 
-### 4、安装Anaconda创建运行环境并安装tensorflow
+### 4、安装显卡驱动并重新启动
 
-sudo sh ~/ubuntu_test-master/ubuntu_test/3-ubuntu安装Anaconda和tensorflow.sh
+sudo sh ~/ubuntu_test-master/ubuntu_test/3_ubuntu_install_graphics_drive.sh
 
-### 5、激活环境并下载benchmark
+### 5、安装Anaconda创建运行环境并安装tensorflow
 
-sh ~/ubuntu_test-master/ubuntu_test/4-ubuntu激活环境并下载benchmark.sh
+sudo sh ~/ubuntu_test-master/ubuntu_test/4_ubuntu_install_Anaconda_creat_env_install_tensorflow.sh
+
+### 6、激活环境并下载benchmark
+
+sh ~/ubuntu_test-master/ubuntu_test/5_ubuntu_activate_env_copy_benchmark.sh
 
 ## 四、运行测试软件并等待结果
 
-sh ~/ubuntu_test-master/ubuntu_test/5-运行测试程序.sh
+sh ~/ubuntu_test-master/ubuntu_test/6_run_benchmark.sh
 
 ![image](https://github.com/ehejia/ubuntu_test/raw/master/images/5.png)
-

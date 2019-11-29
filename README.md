@@ -36,23 +36,23 @@ unzip master.zip
 
 ### 2、初始化系统
 
-sudo sh ubuntu_test-master/ubuntu_test/1-ubuntu初始化.sh
+sudo sh ~/ubuntu_test-master/ubuntu_test/1-ubuntu初始化.sh
 
 ### 3、安装显卡驱动并重新启动
 
-sudo sh ubuntu_test-master/ubuntu_test/2-ubuntu安装显卡驱动需重启.sh 
+sudo sh ~/ubuntu_test-master/ubuntu_test/2-ubuntu安装显卡驱动需重启.sh 
 
 ### 4、安装Anaconda创建运行环境并安装tensorflow
 
-sudo sh ubuntu_test-master/ubuntu_test/3-ubuntu安装Anaconda和tensorflow.sh
+sudo sh ~/ubuntu_test-master/ubuntu_test/3-ubuntu安装Anaconda和tensorflow.sh
 
 ### 5、激活环境并下载benchmark
 
-sudo sh ubuntu_test-master/ubuntu_test/4-ubuntu激活环境并下载benchmark.sh
+sudo sh ~/ubuntu_test-master/ubuntu_test/4-ubuntu激活环境并下载benchmark.sh
 
 ## 四、运行测试软件并等待结果
 
-sudo sh ubuntu_test-master/ubuntu_test/5-运行测试程序.sh
+sudo sh ~/ubuntu_test-master/ubuntu_test/5-运行测试程序.sh
 
 
 

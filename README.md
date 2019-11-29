@@ -3,8 +3,11 @@
 # 一、ubuntu系统下载安装(略)
 
 1．Ubuntu安装
+
   1）www.ubuntu.com下载ISO安装文件
+  
     http://mirrors.njupt.edu.cn/ubuntu-releases/18.04.3/ubuntu-18.04.3-desktop-amd64.iso
+	
   2）使用rufus程序将ISO文件写入U盘（windows环境，linux环境使用DD）
   
 ![image](https://github.com/ehejia/ubuntu_test/raw/master/images/isotousb.png)

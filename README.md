@@ -16,6 +16,8 @@
   
 ![image](https://github.com/ehejia/ubuntu_test/raw/master/images/isotousb.png)
 
+注意：安装Ubuntu建议使用UEFI模式引导，避免卡引导处！
+
 ## 二、脚本说明
 
 按照序号执行1-3需要打开终端脚本运行需要添加sudo

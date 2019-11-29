@@ -56,6 +56,8 @@ sudo sh ~/ubuntu_test-master/ubuntu_test/3_ubuntu_install_graphics_drive.sh
 
 sudo sh ~/ubuntu_test-master/ubuntu_test/4_ubuntu_install_Anaconda_creat_env_install_tensorflow.sh
 
+![image](https://github.com/ehejia/ubuntu_test/raw/master/images/conda_create_env.png)
+
 ### 6、激活环境并下载benchmark
 
 sh ~/ubuntu_test-master/ubuntu_test/5_ubuntu_activate_env_copy_benchmark.sh

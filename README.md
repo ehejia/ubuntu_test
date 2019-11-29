@@ -1,12 +1,12 @@
 # Ubuntu18.4 测试环境搭建 
 
-copyritht AMD China FAE Group
+## copyritht AMD China FAE Group
 
-QQ:77124019 weichat:littlefox123 
+## QQ:77124019 weichat:littlefox123 
 
 ## 一、ubuntu系统下载安装(略)
 
-###1．Ubuntu安装
+### 1．Ubuntu安装
 
 ####  1）www.ubuntu.com下载ISO安装文件
   

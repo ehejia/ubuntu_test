@@ -7,7 +7,7 @@
     http://mirrors.njupt.edu.cn/ubuntu-releases/18.04.3/ubuntu-18.04.3-desktop-amd64.iso
   2）使用rufus程序将ISO文件写入U盘（windows环境，linux环境使用DD）
   
-![image]
+![image]https://github.com/ehejia/ubuntu_test/raw/master/images/isotousb.png
 
 #二、系统环境搭建
 

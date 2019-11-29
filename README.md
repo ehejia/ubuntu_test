@@ -54,5 +54,5 @@ sudo sh ~/ubuntu_test-master/ubuntu_test/4-ubuntu激活环境并下载benchmark.
 
 sudo sh ~/ubuntu_test-master/ubuntu_test/5-运行测试程序.sh
 
-
+![image](https://github.com/ehejia/ubuntu_test/raw/master/images/5.png)
 

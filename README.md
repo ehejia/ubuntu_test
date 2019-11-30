@@ -2,7 +2,8 @@
 
 ##### CopyRitht AMD China FAE Group
 
-##### QQ:77124019 weichat:littlefox123 
+##### QQ:77124019 
+##### weichat:littlefox123 
 
 ## 一、ubuntu系统下载安装(略)
 
@@ -62,7 +63,7 @@ sudo sh ~/ubuntu_test-master/ubuntu_test/4_ubuntu_install_Anaconda_creat_env_ins
 
 ### 6、激活环境并下载benchmark
 
-**警告！该步骤执行结束后必须将当前终端关闭后重新打开，
+**警告！该步骤执行结束后必须将当前终端关闭后重新打开**
 ```
 sh ~/ubuntu_test-master/ubuntu_test/5_ubuntu_activate_env_copy_benchmark.sh
 ```

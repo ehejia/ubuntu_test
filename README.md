@@ -25,7 +25,7 @@
   
 **注意：安装显卡脚本执行后会重新启动系统并加载驱动**
 
-sudo为需管理员权限脚本，例：
+sudo为需管理员权限执行脚本，例：
 ```
 sudo sh ~/ubuntu_test-master/ubuntu_test/1_ubuntu_init.sh
 ```

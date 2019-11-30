@@ -20,17 +20,16 @@
 
 ## 二、脚本说明
 
-1.**按照序号执行1-3需要打开终端脚本运行需要添加sudo**
-2.**注意：序号3脚本执行后会重新启动系统加载驱动**
+**打开终端按照序号执行脚本**
+**注意：安装显卡脚本执行后会重新启动系统并加载驱动**
 
-例：
+sudo为需管理员权限脚本，例：
 ```
-sudo sh ~/1-ubuntu初始化.sh
+sudo sh ~/ubuntu_test-master/ubuntu_test/1_ubuntu_init.sh
 ```
 
-4-5普通用户执行即可
-
-例：
+普通用户权限脚本直接在终端中执行即可
+  例：
 ```
 sh ~/4-ubuntu激活环境并安装tensorflow.sh
 ```
@@ -38,39 +37,39 @@ sh ~/4-ubuntu激活环境并安装tensorflow.sh
 ## 三.准备系统环境
 
 ### 1、下载环境安装包
-
+```
 cd ~
-
 wget https://github.com/ehejia/ubuntu_test/archive/master.zip
-
 unzip master.zip
-
+```
 ### 2、初始化系统安装必要的软件（openssh-server，git）
-
+```
 sudo sh ~/ubuntu_test-master/ubuntu_test/1_ubuntu_init.sh
-
+```
 ### 3、解压并下载安装脚本
-
+```
 sh ~/ubuntu_test-master/ubuntu_test/2_ubuntu_copy_scirpt.sh
-
+```
 ### 4、安装显卡驱动并重新启动
-
+```
 sudo sh ~/ubuntu_test-master/ubuntu_test/3_ubuntu_install_graphics_drive.sh
-
+```
 ### 5、安装Anaconda创建运行环境并安装tensorflow
-
+```
 sudo sh ~/ubuntu_test-master/ubuntu_test/4_ubuntu_install_Anaconda_creat_env_install_tensorflow.sh
-
+```
 ![image](https://github.com/ehejia/ubuntu_test/raw/master/images/conda_create_env.png)
 
 ### 6、激活环境并下载benchmark
 
+**警告！该步骤执行结束后必须将当前终端关闭后重新打开，
+```
 sh ~/ubuntu_test-master/ubuntu_test/5_ubuntu_activate_env_copy_benchmark.sh
-
+```
 ## 四、运行测试软件并等待结果
-
+```
 sh ~/ubuntu_test-master/ubuntu_test/6_run_benchmark.sh
-
+```
 ![image](https://github.com/ehejia/ubuntu_test/raw/master/images/run_benchmark.png)
 
 ## 测试机配置及运行状态

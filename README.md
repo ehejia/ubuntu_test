@@ -9,7 +9,7 @@
 
 ### 1．Ubuntu安装
 
-####  1）www.ubuntu.com下载ISO安装文件
+####  1）www.ubuntu.com 下载安装镜像
   
 [点击下载ISO](http://mirrors.njupt.edu.cn/ubuntu-releases/18.04.3/ubuntu-18.04.3-desktop-amd64.iso)
 	

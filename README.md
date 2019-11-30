@@ -31,7 +31,7 @@ sudo sh ~/ubuntu_test-master/ubuntu_test/1_ubuntu_init.sh
 普通用户权限脚本直接在终端中执行即可
   例：
 ```
-sh ~/4-ubuntu激活环境并安装tensorflow.sh
+sh ~/ubuntu_test-master/ubuntu_test/2_ubuntu_copy_scirpt.sh
 ```
 
 ## 三.准备系统环境

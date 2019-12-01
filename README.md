@@ -88,6 +88,6 @@ sh ~/ubuntu_test-master/ubuntu_test/6_run_benchmark.sh
 
 ## 测试机配置及运行状态
 
-**可以使用nvidia-smi,htop,screenfetch等查看并监视运行状态**
+**可以使用nvidia-smi,htop,screenfetch等软件查看并监视运行状态**
 
 ![image](https://github.com/ehejia/ubuntu_test/raw/master/images/testing.png)

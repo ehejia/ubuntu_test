@@ -19,6 +19,16 @@
 
 注意：安装Ubuntu建议使用UEFI模式引导，避免卡引导处！
 
+####  3）安装时注意取消默认勾选的安装时更新
+
+![image](https://github.com/ehejia/ubuntu_test/raw/master/images/delselete.jpg)
+
+
+####  4）如果单盘安装系统可以选择清除整个磁盘，如果是需要多系统并存，可以使用其他选项手动调节
+
+![image](https://github.com/ehejia/ubuntu_test/raw/master/images/no_data.png)
+
+
 ## 二、脚本说明
 
 **打开终端按照序号执行脚本**

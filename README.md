@@ -17,18 +17,18 @@
 
 [软件官网点击打开](https://rufus.ie/)
   
-![image](https://github.com/ehejia/ubuntu_test/raw/master/images/isotousb.png)
+![image](images/isotousb.png)
 
 注意：安装Ubuntu建议使用UEFI模式引导，避免卡引导处！
 
 ####  3）安装时注意取消默认勾选的安装时更新
 
-![image](https://github.com/ehejia/ubuntu_test/raw/master/images/delselete.jpg)
+![image](images/delselete.jpg)
 
 
 ####  4）如果单盘安装系统可以选择清除整个磁盘，如果是需要多系统并存，可以使用其他选项手动调节
 
-![image](https://github.com/ehejia/ubuntu_test/raw/master/images/no_data.png)
+![image](images/no_data.png)
 
 
 ## 二、脚本说明
@@ -53,7 +53,7 @@ sh ~/ubuntu_test-master/ubuntu_test/2_ubuntu_copy_scirpt.sh
 ### 1、下载环境安装包
 ```
 cd ~
-wget https://github.com/ehejia/ubuntu_test/archive/master.zip
+wget https://github.com/ihejia/ubuntu_test/archive/master.zip
 unzip master.zip
 ```
 ### 2、初始化系统安装必要的软件（openssh-server，git）
@@ -72,7 +72,7 @@ sudo sh ~/ubuntu_test-master/ubuntu_test/3_ubuntu_install_graphics_drive.sh
 ```
 sudo sh ~/ubuntu_test-master/ubuntu_test/4_ubuntu_install_Anaconda_creat_env_install_tensorflow.sh
 ```
-![image](https://github.com/ehejia/ubuntu_test/raw/master/images/conda_create_env.png)
+![image](images/conda_create_env.png)
 
 ### 6、激活环境并下载benchmark
 
@@ -84,10 +84,10 @@ sh ~/ubuntu_test-master/ubuntu_test/5_ubuntu_activate_env_copy_benchmark.sh
 ```
 sh ~/ubuntu_test-master/ubuntu_test/6_run_benchmark.sh
 ```
-![image](https://github.com/ehejia/ubuntu_test/raw/master/images/run_benchmark.png)
+![image](images/run_benchmark.png)
 
 ## 测试机配置及运行状态
 
 **可以使用nvidia-smi,htop,screenfetch等软件查看并监视运行状态**
 
-![image](https://github.com/ehejia/ubuntu_test/raw/master/images/testing.png)
+![image](images/testing.png)

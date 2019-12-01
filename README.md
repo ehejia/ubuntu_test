@@ -14,6 +14,8 @@
 [点击下载ISO](http://mirrors.njupt.edu.cn/ubuntu-releases/18.04.3/ubuntu-18.04.3-desktop-amd64.iso)
 	
 ####  2）使用rufus程序将ISO文件写入U盘（windows环境，linux环境使用DD）
+
+[软件官网点击打开](https://rufus.ie/)
   
 ![image](https://github.com/ehejia/ubuntu_test/raw/master/images/isotousb.png)
 

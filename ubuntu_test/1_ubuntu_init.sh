@@ -1,12 +1,12 @@
 #!/bin/bash
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
-apt update 
-apt install -y git
-apt install -y net-tools
-apt install -y openssh-server
-apt install -y htop
-apt install -y screenfetch
-service sshd start
-rm -rf ~/linux_setting
+sudo -s apt update 
+sudo -s apt install -y git
+sudo -s apt install -y net-tools
+sudo -s apt install -y openssh-server
+sudo -s apt install -y htop
+sudo -s apt install -y screenfetch
+sudo -s service sshd start
+sudo -s rm -rf ~/linux_setting
 

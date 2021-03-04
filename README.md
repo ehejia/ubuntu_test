@@ -58,15 +58,15 @@ unzip master.zip
 ```
 ### 2、初始化系统安装必要的软件（openssh-server，git）
 ```
-sudo sh ~/ubuntu_test-master/ubuntu_test/1_ubuntu_init.sh
+sh ~/ubuntu_test-master/ubuntu_test/1_ubuntu_init.sh
 ```
 ### 3、解压并下载安装脚本
 ```
 sh ~/ubuntu_test-master/ubuntu_test/2_ubuntu_copy_scirpt.sh
 ```
-### 4、安装显卡驱动并重新启动
+### 4、安装显卡驱动
 ```
-sudo sh ~/ubuntu_test-master/ubuntu_test/3_ubuntu_install_graphics_drive.sh
+sh ~/ubuntu_test-master/ubuntu_test/3_ubuntu_install_graphics_drive.sh
 ```
 ### 5、安装Anaconda创建运行环境并安装tensorflow
 ```

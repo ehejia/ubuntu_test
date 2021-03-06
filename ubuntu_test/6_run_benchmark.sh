@@ -12,5 +12,5 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-conda activate tf-gpu
-python3 ~/benchmarks/scripts/tf_cnn_benchmarks/tf_cnn_benchmarks.py --batch_size=64 --model=resnet50 --num_gpus=1 --num_epochs=100
+conda activate tf21
+python3 ~/benchmarks_tf21/scripts/tf_cnn_benchmarks/tf_cnn_benchmarks.py --batch_size=64 --model=resnet50 --num_gpus=1 --num_epochs=100
